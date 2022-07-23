@@ -10,7 +10,7 @@
 1.4 Дайте все права для пользователя sys_temp. 
 
 1.5 Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
-
+ 
 1.6 Переподключитесь к базе данных от имени sys_temp.
 
 Для смены типа аутентификации с sha2 используйте запрос: 
@@ -25,7 +25,25 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а так же "простыня" со всеми запросами.*
 
+---
 
+### Решение 1.
+
+1.1\
+![image](https://user-images.githubusercontent.com/103321705/180621910-4c71d52e-70d9-423c-b7cd-9834cd31d2a0.png)\
+1.2 + 1.3\
+![image](https://user-images.githubusercontent.com/103321705/180622127-d5d1c53f-7ae1-401b-800e-97f8a505bec7.png)\
+1.4 + 1.5\
+![image](https://user-images.githubusercontent.com/103321705/180622242-35305556-ae07-4279-809d-4ed5a5b9b530.png)\
+1.6\
+![image](https://user-images.githubusercontent.com/103321705/180622413-c98f71f1-9581-4aa6-bb2f-be908a963123.png)\
+1.6+1.7\
+![image](https://user-images.githubusercontent.com/103321705/180622767-0ecb6a18-3e37-4553-8989-00117cf73672.png)\
+1.8\
+RENAME USER 'user_name'@'localhost' TO 'user_name'@'remote_server_ip';\
+![sakila](https://user-images.githubusercontent.com/103321705/180623228-b7096de1-6bc7-4ce8-a40b-111ec4c70d3a.png)\
+
+---
 ### Задание 2.
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца, в первом должны быть названия таблиц восстановленной базы, 
 во втором названия первичных ключей этих таблиц. Пример: (скриншот / текст)
@@ -34,6 +52,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 customer         | customer_id
 ```
 
+---
+
+ ### Решение 2.
+
+![image](https://user-images.githubusercontent.com/103321705/180623926-dcecb6af-4ee5-4253-a6c4-d7ff6b978060.png)
+
+---
 
 ## Дополнительные задания (со звездочкой*)
 Эти задания дополнительные (не обязательные к выполнению) и никак не повлияют на получение вами зачета по этому домашнему заданию. Вы можете их выполнить, если хотите глубже и/или шире разобраться в материале.
@@ -44,3 +69,14 @@ customer         | customer_id
 3.2 Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а так же "простыня" со всеми запросами.*
+
+ ---
+ 
+ ### Решение 3.
+
+3.1\
+![image](https://user-images.githubusercontent.com/103321705/180624502-5e3f1b3a-9a0b-44d8-afbc-3dad4a5dc792.png)
+
+3.2\
+![image](https://user-images.githubusercontent.com/103321705/180624520-b499a4e0-7a52-4fdb-8b64-b3f6b9f1f329.png)
+
